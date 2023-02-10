@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "test": "jest"
+    "test": "npx jest"
   },
   "author": "",
   "license": "ISC",
+  "jest": {
+    "preset": "ts-jest"
+  },
   "devDependencies": {
     "@types/jest": "^29.4.0",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
